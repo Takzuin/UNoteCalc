@@ -11,12 +11,12 @@ def calcular_nota_real(materias):
 
 # Datos de ejemplo (notas en escala de 0 a 5)
 materias = {
-    "PENSAMIENTO IUE": [(4.0, 15.0), (0.0, 15)],
-    "TALLER DE LENGUAJE": [(1.8, 15.0), (3.5, 20.0)],
+    "PENSAMIENTO IUE": [(4.0, 15.0), (3.5, 15)],
+    "TALLER DE LENGUAJE": [(1.8, 15.0),(5, 15.0), (3.5, 20.0)],
     "ÁLGEBRA Y TRIGONOMETRÍA": [(3.9, 9.0), (0.0, 9.0)],
     "GEOMETRÍA": [(1.3, 9.0), (0.0, 9.0), (3.0, 20.0)],#, (0, 9.0), (0, 9.0), (0, 15.0), (0, 20.0), (0, 9.0)
-    "INTRODUCCIÓN A LA INGENIERÍA INFORMÁTICA": [(0.0, 0.0)],
-    "INFORMÁTICA BÁSICA": [(3.8, 15.0), (2.0, 5.0), (3.5, 5.0), (3.5, 5.0)],
+    "INTRODUCCIÓN A LA INGENIERÍA INFORMÁTICA": [(4.2, 20.0)],
+    "INFORMÁTICA BÁSICA": [(3.8, 15.0),(2.8, 20.0), (2.0, 5.0), (3.5, 5.0), (3.5, 5.0)],
     "INFRAESTRUCTURA TECNOLÓGICA": [(4.5, 2.0), (5.0, 5.0), (4.3, 2.0), (3.5, 12.0), (3.6, 5.0)]
 }
 
